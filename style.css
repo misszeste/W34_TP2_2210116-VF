@@ -1,0 +1,141 @@
+/*--------------------- Mes ajouts ----------------------------*/
+
+/* login.php*/
+.bodyLogin{
+    background:black;
+  }
+  
+  #frmLogin{
+    border: solid black 1px;
+    width: 55%;
+    border-radius: 2px;
+    margin: -2px auto;
+    background: black;
+    padding: 100px;
+    color: white;
+  }
+  
+  #btnLogin{
+    color:#74c92d;  
+    padding: 7px;
+    margin-left: 20%;
+  }
+
+
+
+  .produit_wrapper {
+    float:left;
+    padding: 10px;
+    text-align: center;
+    }
+  .produit_wrapper:hover {
+    box-shadow: 0 0 0 2px #e5e5e5;
+    cursor:pointer;
+    }
+  .produit_wrapper .nom {
+    font-weight:bold;
+    }
+  .produit_wrapper .acheter {
+    text-transform: uppercase;
+      background: #1e6af6;
+      border: 1px solid #1e6af6;
+      cursor: pointer;
+      color: #fff;
+      padding: 8px 40px;
+      margin-top: 10px;
+  }
+  .produit_wrapper .acheter:hover {
+    background: #4b87f7;
+      border-color: #4b87f7;
+  }
+  .message_box .box{
+    margin: 10px 0px;
+      border: 1px solid #2b772e;
+      text-align: center;
+      font-weight: bold;
+      color: #2b772e;
+    }
+  .table td {
+    border-bottom: #F0F0F0 1px solid;
+    padding: 10px;
+    }
+  .panier_div {
+    float:right;
+    font-weight:bold;
+    position:relative;
+    }
+  .panier_div a {
+    color:#000;
+    }	
+  .panier_div span {
+    font-size: 12px;
+      line-height: 14px;
+      background: #1e6af6;
+      padding: 2px;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      position: absolute;
+      top: -1px;
+      left: 13px;
+      color: #fff;
+      width: 14px;
+      height: 13px;
+      text-align: center;
+    }
+  .panier .retirer {
+      background: none;
+      border: none;
+      color: #0067ab;
+      cursor: pointer;
+      padding: 0px;
+    }
+  .panier .retirer:hover {
+    text-decoration:underline;
+    }
+
+    /**** contenuMembre*****/
+    .panier_div {
+      float:right;
+      font-weight:bold;
+      position:relative;
+      }
+  .panier_div span {
+        font-size: 12px;
+          line-height: 14px;
+          background: #1ef63b;
+          padding: 2px;
+          border: 2px solid #fff;
+          border-radius: 50%;
+          position: relative;
+          top: -1px;
+          left: 13px;
+          color: rgb(11, 10, 10);
+          width: 21px;
+          height: 20px;
+          text-align: center;
+        }
+
+    /* contenuConfirmation */
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    body{background-color: #050302;font-family: 'Montserrat', sans-serif}
+    .card{border:none} 
+    .totals tr td{font-size: 13px}
+    .footer{background-color: #eeeeeea8}
+    .footer span{font-size: 12px}
+    .product-qty span{font-size: 12px;color: #dedbdb}
+
+    /***contenuedelete***/
+    .wrapper_delete{
+      width: 1000px;
+      margin: 0 auto;
+  }
+
+  /***coontenuCreate***/
+  .wrapper_create{
+    width: 1000px;
+    margin: 0 auto;
+}
+ .wrapper{
+  width: 1600px;
+  margin: 0 auto;
+}
